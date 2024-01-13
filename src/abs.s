@@ -9,10 +9,7 @@
 #   a0 (int) the absolute value of the input
 # =================================================================
 abs:
-    # Prologue
-
-    # PASTE HERE
-
-    # Epilogue
-
+    bge a0 x0 finish
+    sub a0 x0 a0
+finish:
     jr ra
